@@ -1,0 +1,94 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+                             http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.github.spawntap</groupId>
+    <artifactId>android-sdk</artifactId>
+    <version>0.0.1</version>
+    <packaging>aar</packaging>
+
+    <name>spawntap/android-sdk</name>
+    <description>Spawntap's offerwall SDK</description>
+    <url>https://github.com/spawntap/android-sdk</url>
+    <inceptionYear>2025</inceptionYear>
+
+    <developers>
+        <developer>
+            <id>spawntap</id>
+            <name/>
+            <email/>
+        </developer>
+    </developers>
+
+    <scm>
+        <connection>scm:git://github.com/spawntap/android-sdk.git</connection>
+        <developerConnection>scm:git://github.com/spawntap/android-sdk.git</developerConnection>
+        <url>git://github.com/spawntap/android-sdk.git</url>
+    </scm>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>com.simpligility.maven.plugins</groupId>
+                <artifactId>android-maven-plugin</artifactId>
+                <version>4.6.0</version>
+                <extensions>true</extensions>
+            </plugin>
+        </plugins>
+    </build>
+
+    <dependencies>
+
+        <dependency>
+            <groupId>com.squareup.okhttp3</groupId>
+            <artifactId>okhttp</artifactId>
+            <version>5.0.0-alpha.11</version>
+            <scope>compile</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>com.squareup.okhttp3</groupId>
+            <artifactId>okhttp-urlconnection</artifactId>
+            <version>5.0.0-alpha.11</version>
+            <scope>compile</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>com.squareup.okhttp3</groupId>
+            <artifactId>okhttp-dnsoverhttps</artifactId>
+            <version>4.12.0</version>
+            <scope>compile</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>com.squareup.retrofit2</groupId>
+            <artifactId>retrofit</artifactId>
+            <version>2.3.0</version>
+            <scope>compile</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>com.squareup.retrofit2</groupId>
+            <artifactId>converter-gson</artifactId>
+            <version>2.3.0</version>
+            <scope>compile</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>androidx.activity</groupId>
+            <artifactId>activity</artifactId>
+            <version>1.8.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>androidx.appcompat</groupId>
+            <artifactId>appcompat</artifactId>
+            <version>1.6.1</version>
+        </dependency>
+
+    </dependencies>
+
+</project>
