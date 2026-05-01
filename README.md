@@ -5,7 +5,7 @@
 
 ```gradle
 dependencies {
-    implementation 'com.github.spawntap:android-sdk:0.0.1'
+    implementation 'com.github.spawntap:android-sdk:1.0.0'
 }
 ```
 
