@@ -7,7 +7,7 @@
 
     <groupId>com.github.spawntap</groupId>
     <artifactId>android-sdk</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.2</version>
     <packaging>aar</packaging>
 
     <name>spawntap/android-sdk</name>
